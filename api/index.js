@@ -19,7 +19,7 @@ const postRoutes = require('./routes/postRoutes')
 // Cors
 app.use(cors({
     credentials: true,
-    origin: 'https://blogify-bishal.vercel.app'
+    origin: 'https://blogify-test.vercel.app'
 }))
 
 // Middleware configuration
